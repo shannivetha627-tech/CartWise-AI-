@@ -1,0 +1,8 @@
+Cleaning_Step,Rows_Before,Rows_After,Rows_Removed
+Duplicate removal,10150,10050,100
+Cancellation removal,10050,9600,450
+Non-product code removal,9600,9550,50
+Invalid quantity removal,9550,9550,0
+Invalid price removal,9550,9519,31
+Unresolved description removal,9519,9519,0
+Invalid date removal,9519,9519,0

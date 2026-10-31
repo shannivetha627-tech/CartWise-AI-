@@ -1,0 +1,12 @@
+Metric,Result
+Project,CartWise AI
+Week,Week 2
+Dataset_Type,Synthetic retail transaction dataset
+Cleaned_Transaction_Rows,9519
+Unique_Invoices,1910
+Unique_Products,40
+Product_Basket_Rows,9519
+Basket_Matrix_Rows,1910
+Basket_Matrix_Columns,40
+Missing_Values_In_Cleaned_Data,281
+Duplicate_Rows_In_Cleaned_Data,0

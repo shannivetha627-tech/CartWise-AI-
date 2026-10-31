@@ -1,0 +1,12 @@
+Validation_Check,Result
+Total_Rows,9519
+Total_Columns,9
+Missing_Required_Columns,0
+Missing_Values_In_Required_Columns,0
+Invalid_Quantity_Rows,0
+Invalid_Price_Rows,0
+Duplicate_Rows,0
+Invalid_Date_Rows,0
+Unique_Products,40
+Unique_Invoices,1910
+Selected_Features,"InvoiceNo, StockCode, Quantity"
