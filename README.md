@@ -1,4 +1,5 @@
 # CartWise-AI-
+<<<<<<< HEAD
 
 Budget-aware shopping basket recommendation system using Python and machine learning.
 
@@ -59,3 +60,6 @@ The current development dataset is synthetic and is used to test the preprocessi
 ## Project Status
 
 Under development.
+=======
+Budget-aware shopping basket recommendation system using Python and machine learning.
+>>>>>>> origin/main
