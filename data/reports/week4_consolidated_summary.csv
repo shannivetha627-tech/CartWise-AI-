@@ -1,0 +1,39 @@
+evaluation_method,metric,value
+Train-Test Rule Evaluation,mean_train_support,0.09929995882110708
+Train-Test Rule Evaluation,mean_train_confidence,0.8515607329463316
+Train-Test Rule Evaluation,mean_train_lift,7.255936809803485
+Train-Test Rule Evaluation,mean_test_support,0.10027060415318545
+Train-Test Rule Evaluation,mean_test_confidence,0.8559002775703172
+Train-Test Rule Evaluation,mean_test_lift,7.3468235531460735
+Train-Test Rule Evaluation,mean_test_leverage,0.08608621572750348
+Train-Test Rule Evaluation,mean_test_conviction,inf
+Train-Test Rule Evaluation,total_evaluated_rules,356.0
+Recommendation Evaluation,budget,2.0
+Recommendation Evaluation,evaluation_cases,1906.0
+Recommendation Evaluation,precision_at_5,0.0933892969569779
+Recommendation Evaluation,recall_at_5,0.1171301154249737
+Recommendation Evaluation,hit_rate,0.4669464847848898
+Recommendation Evaluation,recommendation_coverage,0.5860440713536201
+Recommendation Evaluation,budget_compliance,1.0
+Recommendation Evaluation,average_recommended_spend,0.8100577124868891
+Five-Fold Cross-Validation,mean_frequent_itemsets,180.4
+Five-Fold Cross-Validation,std_frequent_itemsets,3.2863353450309964
+Five-Fold Cross-Validation,mean_association_rules,356.0
+Five-Fold Cross-Validation,std_association_rules,0.0
+Five-Fold Cross-Validation,mean_mean_validation_support,0.0994940878875227
+Five-Fold Cross-Validation,std_mean_validation_support,0.0024390465607613
+Five-Fold Cross-Validation,mean_mean_validation_confidence,0.8520939412390023
+Five-Fold Cross-Validation,std_mean_validation_confidence,0.0053262607900968
+Five-Fold Cross-Validation,mean_mean_validation_lift,7.330646723941214
+Five-Fold Cross-Validation,std_mean_validation_lift,0.0780077276814534
+Recommendation Error Analysis,evaluated_transactions,382.0
+Recommendation Error Analysis,transactions_with_recommendations,377.0
+Recommendation Error Analysis,top_k,5.0
+Recommendation Error Analysis,true_positives,796.0
+Recommendation Error Analysis,false_positives,338.0
+Recommendation Error Analysis,false_negatives,728.0
+Recommendation Error Analysis,micro_precision,0.7019400352733686
+Recommendation Error Analysis,micro_recall,0.5223097112860893
+Recommendation Error Analysis,micro_f1_score,0.598946576373213
+Recommendation Error Analysis,mean_case_precision_at_5,0.4167539267015706
+Recommendation Error Analysis,mean_case_recall_at_5,0.5222513089005235

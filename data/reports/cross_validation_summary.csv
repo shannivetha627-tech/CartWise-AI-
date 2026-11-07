@@ -1,0 +1,6 @@
+metric,mean,standard_deviation
+frequent_itemsets,180.4,3.2863353450309964
+association_rules,356.0,0.0
+mean_validation_support,0.09949408788752279,0.002439046560761327
+mean_validation_confidence,0.8520939412390023,0.005326260790096864
+mean_validation_lift,7.330646723941214,0.07800772768145349

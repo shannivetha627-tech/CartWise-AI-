@@ -1,0 +1,2 @@
+evaluated_transactions,transactions_with_recommendations,top_k,true_positives,false_positives,false_negatives,micro_precision,micro_recall,micro_f1_score,mean_case_precision_at_5,mean_case_recall_at_5
+382,377,5,796,338,728,0.7019400352733686,0.5223097112860893,0.598946576373213,0.41675392670157063,0.5222513089005235
