@@ -1,0 +1,32 @@
+{
+    "method": "Bayesian Optimization",
+    "optimization_algorithm": "Optuna TPE Sampler",
+    "optuna_version": "5.0.0",
+    "random_state": 42,
+    "number_of_trials": 25,
+    "successful_trials": 25,
+    "failed_trials": 0,
+    "best_configuration": {
+        "method": "Bayesian Optimization",
+        "trial": 15,
+        "min_support": 0.005,
+        "min_confidence": 0.2,
+        "max_len": 4,
+        "frequent_itemsets": 1397,
+        "rule_count": 3407,
+        "mining_time_seconds": 0.04293280001729727,
+        "status": "Success",
+        "precision_at_5": 0.172588285960379,
+        "recall_at_5": 0.2170273471145564,
+        "hit_rate": 0.4117140396210163,
+        "coverage": 0.9552110249784669,
+        "budget_compliance": 1.0,
+        "average_spend": 5.386925064599487,
+        "product_coverage": 0.6749999999999999,
+        "mean_lift": 6.019739211772647,
+        "evaluation_time_seconds": 38.04049400007352,
+        "optimization_score": 0.3120074289405685,
+        "test_set_used": false
+    },
+    "test_set_used": false
+}

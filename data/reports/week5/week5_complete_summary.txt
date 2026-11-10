@@ -1,0 +1,43 @@
+CARTWISE AI - WEEK 5 SUMMARY
+============================================================
+
+PROJECT: Model Optimization and Experimentation
+
+DATASET
+------------------------------------------------------------
+Total transactions: 1910
+Products: 40
+Training transactions: 1092
+Validation transactions: 466
+Test transactions: 352
+
+OPTIMIZATION EXPERIMENTS
+------------------------------------------------------------
+Grid Search: 75/75 successful
+Random Search: 25/25 successful
+Bayesian Optimization: 25/25 successful
+
+SELECTED CONFIGURATION
+------------------------------------------------------------
+Method: Grid Search
+Minimum support: 0.005
+Minimum confidence: 0.2
+Maximum itemset length: 2.0
+Association rules: 147
+Validation score: 0.312007
+Improvement over baseline: 8.12%
+
+FINAL TEST RESULTS
+------------------------------------------------------------
+Precision@5: 0.296371
+Recall@5: 0.372643
+Hit Rate: 0.706286
+Coverage: 0.925286
+Budget compliance: 1.000000
+Optimization score: 0.464127
+
+TEST SET WAS NOT USED DURING HYPERPARAMETER TUNING.
+
+CONCLUSION
+------------------------------------------------------------
+Grid Search achieved the highest validation score jointly with Random Search and Bayesian Optimization. It was selected because it achieved the same score with fewer association rules. Final evaluation was then performed on the untouched test dataset.

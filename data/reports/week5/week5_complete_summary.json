@@ -1,0 +1,60 @@
+{
+    "project": "CartWise AI",
+    "week": 5,
+    "assignment": "Model Optimization and Experimentation",
+    "dataset": {
+        "total_transactions": 1910,
+        "number_of_products": 40,
+        "training_transactions": 1092,
+        "validation_transactions": 466,
+        "test_transactions": 352,
+        "split_method": "Grouped split by identical basket patterns"
+    },
+    "experiments": {
+        "baseline": {
+            "method": "Baseline Evaluation",
+            "configuration": {
+                "min_support": 0.01,
+                "min_confidence": 0.3,
+                "max_len": 3
+            }
+        },
+        "grid_search": {
+            "total_trials": 75,
+            "successful_trials": 75,
+            "failed_trials": 0
+        },
+        "random_search": {
+            "total_trials": 25,
+            "successful_trials": 25,
+            "failed_trials": 0
+        },
+        "bayesian_optimization": {
+            "total_trials": 25,
+            "successful_trials": 25,
+            "failed_trials": 0
+        }
+    },
+    "selected_configuration": {
+        "method": "Grid Search",
+        "min_support": 0.005,
+        "min_confidence": 0.2,
+        "max_len": 2,
+        "validation_score": 0.3120074289405685,
+        "baseline_score": 0.2885723514211886,
+        "improvement_over_baseline_percent": 8.121040496071297,
+        "association_rules": 147
+    },
+    "final_test_evaluation": {
+        "precision_at_5": 0.29637142857142856,
+        "recall_at_5": 0.37264285714285716,
+        "hit_rate": 0.7062857142857142,
+        "coverage": 0.9252857142857143,
+        "budget_compliance": 1.0,
+        "average_spend": 4.743725714285716,
+        "optimization_score": 0.46412714285714285,
+        "mean_lift": 4.24543105410023
+    },
+    "test_set_used_during_tuning": false,
+    "conclusion": "Grid Search achieved the highest validation score jointly with Random Search and Bayesian Optimization. It was selected because it achieved the same score with fewer association rules. Final evaluation was then performed on the untouched test dataset."
+}

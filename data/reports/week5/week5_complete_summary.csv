@@ -1,0 +1,15 @@
+section,metric,value
+Dataset,Total transactions,1910.0
+Dataset,Number of products,40.0
+Grid Search,Successful configurations,75.0
+Random Search,Successful configurations,25.0
+Bayesian Optimization,Successful configurations,25.0
+Selected Model,Minimum support,0.005
+Selected Model,Minimum confidence,0.2
+Selected Model,Maximum itemset length,2.0
+Final Test,Precision@5,0.29637142857142856
+Final Test,Recall@5,0.37264285714285716
+Final Test,Hit Rate,0.7062857142857142
+Final Test,Coverage,0.9252857142857143
+Final Test,Budget Compliance,1.0
+Final Test,Optimization Score,0.46412714285714285

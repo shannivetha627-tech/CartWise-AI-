@@ -1,0 +1,26 @@
+{
+    "project": "CartWise AI",
+    "method": "Grid Search",
+    "random_state": 42,
+    "min_support": 0.005,
+    "min_confidence": 0.2,
+    "max_len": 2,
+    "frequent_itemsets": 516,
+    "rule_count": 147,
+    "mining_time_seconds": 0.01504389988258481,
+    "total_validation_execution_seconds": 4.188415288925171,
+    "test_set_used": true,
+    "test_metrics": {
+        "precision_at_5": 0.29637142857142856,
+        "recall_at_5": 0.37264285714285716,
+        "hit_rate": 0.7062857142857142,
+        "coverage": 0.9252857142857143,
+        "budget_compliance": 1.0,
+        "average_spend": 4.743725714285716,
+        "product_coverage": 0.66875,
+        "rule_count": 147,
+        "mean_lift": 4.24543105410023,
+        "evaluation_time_seconds": 4.172178499866277,
+        "optimization_score": 0.46412714285714285
+    }
+}

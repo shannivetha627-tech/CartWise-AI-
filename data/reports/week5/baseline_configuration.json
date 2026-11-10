@@ -1,0 +1,16 @@
+{
+    "experiment": "Week 5 Baseline",
+    "random_state": 42,
+    "min_support": 0.01,
+    "min_confidence": 0.3,
+    "max_len": 3,
+    "budget_levels": [
+        2.0,
+        5.0,
+        10.0,
+        15.0
+    ],
+    "max_recommendations": 5,
+    "split_method": "Grouped 64:16:20 train-validation-test",
+    "test_set_used": false
+}

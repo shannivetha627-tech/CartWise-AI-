@@ -1,0 +1,2 @@
+experiment,min_support,min_confidence,max_len,training_transactions,validation_transactions,reserved_test_transactions,frequent_itemsets,rule_count,mining_time_seconds,evaluation_time_seconds,precision_at_5,recall_at_5,hit_rate,coverage,budget_compliance,average_spend,product_coverage,mean_lift,optimization_score
+Baseline,0.01,0.3,3,1092,466,352,325,356,0.05253660003654659,12.840081000002101,0.17209302325581396,0.21640826873385013,0.410099052540913,0.7279285099052542,1.0,3.203011412575375,0.6749999999999999,6.1714473709606406,0.28857235142118864

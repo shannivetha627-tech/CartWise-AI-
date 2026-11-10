@@ -1,0 +1,50 @@
+{
+    "project": "CartWise AI",
+    "week": 5,
+    "comparison_methods": [
+        {
+            "method": "Baseline",
+            "optimization_score": 0.2885723514211886,
+            "improvement_over_baseline_percent": 0.0,
+            "precision_at_5": 0.1720930232558139,
+            "recall_at_5": 0.2164082687338501,
+            "hit_rate": 0.410099052540913,
+            "coverage": 0.7279285099052542,
+            "rule_count": 356
+        },
+        {
+            "method": "Grid Search",
+            "optimization_score": 0.3120074289405685,
+            "improvement_over_baseline_percent": 8.121040496071297,
+            "precision_at_5": 0.1725882859603789,
+            "recall_at_5": 0.2170273471145564,
+            "hit_rate": 0.4117140396210164,
+            "coverage": 0.9552110249784668,
+            "rule_count": 147
+        },
+        {
+            "method": "Random Search",
+            "optimization_score": 0.3120074289405685,
+            "improvement_over_baseline_percent": 8.121040496071297,
+            "precision_at_5": 0.172588285960379,
+            "recall_at_5": 0.2170273471145564,
+            "hit_rate": 0.4117140396210163,
+            "coverage": 0.9552110249784668,
+            "rule_count": 1458
+        },
+        {
+            "method": "Bayesian Optimization",
+            "optimization_score": 0.3120074289405685,
+            "improvement_over_baseline_percent": 8.121040496071297,
+            "precision_at_5": 0.172588285960379,
+            "recall_at_5": 0.2170273471145564,
+            "hit_rate": 0.4117140396210163,
+            "coverage": 0.9552110249784668,
+            "rule_count": 3407
+        }
+    ],
+    "baseline_score": 0.2885723514211886,
+    "test_set_used": false,
+    "highest_scoring_method": "Grid Search",
+    "most_efficient_tied_method": "Grid Search"
+}
